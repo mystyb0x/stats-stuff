@@ -21,7 +21,7 @@ def mean_geometric_dist(p: float, support=0) -> float:
     else:
         raise ValueError("Support can only be 0 or 1.")
 
-def lmf_geometric_dist(p: float, k: int, support=0) -> float:
+def pmf_geometric_dist(p: float, k: int, support=0) -> float:
     """Performs a probability mass function on a geometric distribution. P(X=k)
 
     Arguments:
