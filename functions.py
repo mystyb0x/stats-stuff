@@ -86,6 +86,3 @@ def cdf_geometric_dist(p: float, k: int, support=0) -> float:
         return cdf
     else:
         raise ValueError("Support can only be 0 and 1.")
-
-x = cdf_geometric_dist(0.7, 3)
-print(x)
